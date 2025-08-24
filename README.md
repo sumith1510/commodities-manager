@@ -1,6 +1,6 @@
 ** Commodities Manager (React + Vite + Tailwind) **
 
-This project implements the commodities management feature as per the given requirements.
+implemening the commodities management feature 
 
 ** Features **
 
