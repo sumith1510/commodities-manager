@@ -1,39 +1,79 @@
-# Commodities Manager (React + Vite + Tailwind)
+Commodities Manager (React + Vite + Tailwind)
 
-This project implements the **commodities management** feature exactly as requested.
+This project implements the commodities management feature as per the given assignment requirements.
 
-## Features Mapping
+✨ Features & Points Mapping
 
-- **A) Login (5 pts):** username/password (demo users below). Persists session.
-- **B) Dashboard (30 pts):** **Manager-only** dashboard with KPI cards: Total SKUs, Inventory Units, Average Price, Low‑stock items.
-- **C) View all products (10 pts):** searchable, sortable table. Visible to **Manager & Store Keeper**.
-- **D) Add/Edit Product (15 pts) [Optional]:** Manager can Add/Edit/Delete products via modal form with validation.
-- **(2) Light/Dark mode (15 pts):** toggle in header; persisted in localStorage.
-- **(3) Role-based access to menu (Bonus):** menu items filtered by role; Store Keeper cannot see Dashboard/Add.
+A) Login (5 pts):
 
-## Demo Credentials
+Username/password login for two roles (Manager & Store Keeper).
 
-- Manager → `manager` / `manager123`
-- Store Keeper → `store` / `store123`
+Session persists in browser localStorage.
 
-## Tech
+B) Dashboard (30 pts):
 
-- React 18, Vite, TailwindCSS. Data stored in `localStorage` (no backend).
+Manager-only dashboard.
 
-## Run Locally
+Displays KPIs:
 
-```bash
+Total SKUs
+
+Total Inventory (units)
+
+Average Price
+
+Low-stock Items (< 20 units)
+
+C) View All Products (10 pts):
+
+Searchable and sortable table of products.
+
+Accessible to both Manager and Store Keeper.
+
+D) Add/Edit Product (15 pts, optional):
+
+Manager can add new products or edit/delete existing ones.
+
+Validation included for name, category, price, and stock.
+
+Light/Dark Mode (15 pts):
+
+Toggle in header.
+
+Choice saved in localStorage.
+
+Role-based Menus (Bonus 25 pts):
+
+Manager sees: Dashboard, Products, Add Product.
+
+Store Keeper sees: Products only.
+
+🔑 Demo Credentials
+
+Manager → manager / manager123
+
+Store Keeper → store / store123
+
+🛠️ Tech Stack
+
+React 18
+
+Vite
+
+TailwindCSS
+
+Data stored in localStorage (no backend required).
+
+🚀 Run Locally
+
+Clone the repository and install dependencies:
+
 npm install
 npm run dev
-```
-Open the printed localhost URL.
 
-## Build
 
-```bash
+Open the printed http://localhost:5173/ in your browser.
+
+📦 Build for Production
 npm run build
 npm run preview
-```
-
----
-
