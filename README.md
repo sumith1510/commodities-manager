@@ -37,4 +37,3 @@ npm run preview
 
 ---
 
-**Author:** ChatGPT • Single-file app code in `src/App.jsx` for easy review.
