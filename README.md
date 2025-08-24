@@ -42,9 +42,9 @@ Store Keeper sees: Products only.
 
 ** Demo Credentials **
 
-Manager → manager / manager123
+Manager: manager / manager123
 
-Store Keeper → store / store123
+Store Keeper: store / store123
 
 ** Tech Stack **
 
